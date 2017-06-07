@@ -1,16 +1,3 @@
-Skip to content
-Features Business Explore Marketplace Pricing
-This repository
-Search
-Sign in or Sign up
- Watch 31  Star 26  Fork 11 meraki/provisioning-lib
- Code  Issues 2  Pull requests 2  Projects 0 Insights 
-Branch: master Find file Copy pathprovisioning-lib/python-3.5-api-module/merakiapi.py
-048b44f  on Mar 27
-@merakiwatt merakiwatt Updated template bind and removed class func
-1 contributor
-RawBlameHistory    
-2513 lines (2202 sloc)  81.5 KB
 #######################################################################################################################
 #
 #  Cisco Meraki Provisioning API Python 3.x Module
@@ -2524,5 +2511,3 @@ def updatesamlrole(apikey, orgid, roleid, rolename, orgaccess, tags, tagaccess, 
     #
     result = __returnhandler(dashboard.status_code, dashboard.text, calltype, suppressprint)
     return result
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
